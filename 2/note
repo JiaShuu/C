@@ -1,0 +1,13 @@
+运算符（operator）+-
+算子（operand）CONSTANT variable
+表达式 a = a + 1
+
+单目运算 -a 只有一个算子 
+优先级高于*/ a*-b
+赋值运算符从右到左 a=6
+递增递减运算符 +1/-1
+count ++ count值不变
+++count  count+1后的值
+
+复合赋值 先右后左
+total *= sum + 12
