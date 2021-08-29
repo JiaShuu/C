@@ -13,4 +13,5 @@ int main(){
         max = b;
         max = 555;                     // 缩进后也与下句一起执行，不加括号后只能接一条语句
     printf("max = %d\n", max);
+    return 0;
 }
