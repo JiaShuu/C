@@ -11,9 +11,11 @@ int main(int argc, char **argv)
     printf("请输入票面：");
     scanf("%d", &bill);
     // 计算找零
-    printf("应该找您：%d\n", bill - price);
+    if (bill >= price) {
+        printf("应该找您：%d\n", bill - price);
+    } else {
+        printf("你的钱不够\n");
+    }
+    
     return 0;
 }
-/* 注释块
-    printf("%d", c*100+b*10+a);    // 注释
-注释到此 */
