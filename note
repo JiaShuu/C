@@ -13,6 +13,12 @@
 递增递减运算符 +1/-1
 count ++ count值不变
 ++count  count+1后的值
+    printf("%d ", i++); // 5
+    printf("%d ", i);   // 6
+    
+    printf("%d ", ++i); // 6
+    printf("%d ", i);   // 6
+
 
 复合赋值 先右后左
 total *= sum + 12
