@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
     fact = 1;
     
     i = 1;
-    for (i = 1; i<=n; i++) { // 初始条件；循环继续条件；循环动作；
+    for (i = 1; i<=n; i++) { // 初始条件；循环继续条件；每次完成循环体内语句后的计数动作；
         fact *= i;
     }
     
